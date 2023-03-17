@@ -1,0 +1,38 @@
+.all-styles {
+   font-size: 24px;
+   padding: 20px 10px;
+
+}
+.btn-text{
+   margin: 0 0 0 20px;
+   font-size: 18px;
+   opacity: 0.8;
+}
+.btn-text span{
+   font-size: 32px;
+   color: #0d6efd;
+}
+.btn-box {
+  margin: 20px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+.plus {
+  border: none;
+  padding: 10px 20px;
+  font-size: 24px;
+  border-radius: 25%;
+  text-align: center;
+  transition: all 0.5s ease;
+  /* background-color: rgba(22, 91, 228, 0.062); */
+}
+.plus:hover {
+  background-color: #0d6efd;
+  
+}
+.plus:active {
+   transform: translateY(2px);
+
+}
